@@ -2,7 +2,7 @@ function searchmovie(){
     var moviename=document.getElementById('moviename').value;
     // document.getElementById('tata').innerHTML=moviename;
 
-fetch("http://www.omdbapi.com/?apikey=8f595a29&s="+moviename)
+fetch("https://www.omdbapi.com/?apikey=8f595a29&s="+moviename)
  .then((response)=>{
      
      var data=response.json();
